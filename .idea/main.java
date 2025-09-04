@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.itil.Random;
-
+//class nodo
 class nodo<T>{
     private T valor;
     private nodo<T> siguiente;
@@ -27,5 +27,28 @@ class nodo<T>{
     }
     public void setSiguiente(nodo<T> siguiente){
         this.siguiente = siguiente;
+    }
+
+    public void push(T valor){
+    }
+    public T pop(){
+    }
+    piblic T peek(){
+    }
+    public boolean isEmpty(){
+    }
+    public String toString(){}
+}
+class ColaEnlazada{
+    Private nodo<T>;
+
+    public bool add(T valor){
+    }
+    public T pool(){
+    }
+    public T Peek(){
+    }
+    public boolean isEmpty(){
+
     }
 }
